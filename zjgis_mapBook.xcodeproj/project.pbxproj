@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68109E641709567300474E64 /* toolbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E621709567300474E64 /* toolbarBackground.png */; };
+		68109E651709567300474E64 /* toolbarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E631709567300474E64 /* toolbarBackground@2x.png */; };
+		68109E6717095DBB00474E64 /* gotomap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E6617095DBB00474E64 /* gotomap@2x.png */; };
+		68109E691709698D00474E64 /* upArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E681709698D00474E64 /* upArrow.png */; };
+		68109E6B17096E2200474E64 /* graphicSymbol01.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E6A17096E2200474E64 /* graphicSymbol01.png */; };
+		68109E6D17097ABE00474E64 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E6C17097ABE00474E64 /* downArrow.png */; };
+		68109E81170AA6FF00474E64 /* page_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E75170AA6FF00474E64 /* page_001.png */; };
+		68109E82170AA6FF00474E64 /* page_001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E76170AA6FF00474E64 /* page_001@2x.png */; };
+		68109E83170AA6FF00474E64 /* page_002.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E77170AA6FF00474E64 /* page_002.png */; };
+		68109E84170AA6FF00474E64 /* page_002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E78170AA6FF00474E64 /* page_002@2x.png */; };
+		68109E85170AA6FF00474E64 /* page_003.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E79170AA6FF00474E64 /* page_003.png */; };
+		68109E86170AA6FF00474E64 /* page_003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E7A170AA6FF00474E64 /* page_003@2x.png */; };
+		68109E87170AA6FF00474E64 /* page_004.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E7B170AA6FF00474E64 /* page_004.png */; };
+		68109E88170AA6FF00474E64 /* page_004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E7C170AA6FF00474E64 /* page_004@2x.png */; };
+		68109E89170AA6FF00474E64 /* page_005.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E7D170AA6FF00474E64 /* page_005.png */; };
+		68109E8A170AA6FF00474E64 /* page_005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E7E170AA6FF00474E64 /* page_005@2x.png */; };
+		68109E8B170AA6FF00474E64 /* page_006.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E7F170AA6FF00474E64 /* page_006.png */; };
+		68109E8C170AA6FF00474E64 /* page_006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68109E80170AA6FF00474E64 /* page_006@2x.png */; };
+		68109E94170AC74200474E64 /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68109E93170AC74200474E64 /* mapViewController.m */; };
+		68109E98170AC75F00474E64 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68109E97170AC75F00474E64 /* DetailsViewController.m */; };
+		68109E9F170ACB4000474E64 /* jinhua_lvl1_R.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68109E99170ACAF700474E64 /* jinhua_lvl1_R.tpk */; };
+		68109EA0170ACB4200474E64 /* jinhua_lvl1_V.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68109E9A170ACAF700474E64 /* jinhua_lvl1_V.tpk */; };
+		68109EA1170ACB4400474E64 /* jinhua_lvl2_R.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68109E9B170ACAF700474E64 /* jinhua_lvl2_R.tpk */; };
+		68109EA2170ACB4600474E64 /* jinhua_lvl2_V.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68109E9C170ACAF700474E64 /* jinhua_lvl2_V.tpk */; };
+		68109EA3170ACB4800474E64 /* province_lvl1.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68109E9D170ACAF700474E64 /* province_lvl1.tpk */; };
+		68109EA4170ACB4A00474E64 /* province_lvl2.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68109E9E170ACAF700474E64 /* province_lvl2.tpk */; };
+		682078D7170C1396001A73DE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 682078D6170C1396001A73DE /* icon.png */; };
+		682078D9170C13A8001A73DE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682078D8170C13A8001A73DE /* icon@2x.png */; };
+		682078E4170C1CB3001A73DE /* page_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 682078E2170C1CB3001A73DE /* page_cover.png */; };
+		682078E5170C1CB3001A73DE /* page_cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682078E3170C1CB3001A73DE /* page_cover@2x.png */; };
+		682078F0170C22D7001A73DE /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 682078EE170C22D7001A73DE /* Default-Portrait@2x~ipad.png */; };
+		682078F1170C22D7001A73DE /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 682078EF170C22D7001A73DE /* Default-Portrait~ipad.png */; };
+		684B9742170BB0A800119F47 /* page01_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B9738170BB0A800119F47 /* page01_01.png */; };
+		684B9743170BB0A800119F47 /* page01_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B9739170BB0A800119F47 /* page01_02.png */; };
+		684B9744170BB0A800119F47 /* page02_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B973A170BB0A800119F47 /* page02_01.png */; };
+		684B9745170BB0A800119F47 /* page03_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B973B170BB0A800119F47 /* page03_01.png */; };
+		684B9746170BB0A800119F47 /* page03_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B973C170BB0A800119F47 /* page03_02.png */; };
+		684B9747170BB0A800119F47 /* page04_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B973D170BB0A800119F47 /* page04_01.png */; };
+		684B9748170BB0A800119F47 /* page04_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B973E170BB0A800119F47 /* page04_02.png */; };
+		684B9749170BB0A800119F47 /* page04_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B973F170BB0A800119F47 /* page04_03.png */; };
+		684B974A170BB0A800119F47 /* page06_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B9740170BB0A800119F47 /* page06_01.png */; };
+		684B974B170BB0A800119F47 /* page06_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 684B9741170BB0A800119F47 /* page06_02.png */; };
+		6883A28B17051AF7004D3474 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A28717051AAF004D3474 /* CoreLocation.framework */; };
+		6883A28C17051B03004D3474 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A28917051AD0004D3474 /* libstdc++.dylib */; };
+		6883A28E17051B10004D3474 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A28D17051B10004D3474 /* Security.framework */; };
+		6883A29017051B1D004D3474 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A28F17051B1D004D3474 /* MobileCoreServices.framework */; };
+		6883A29217051B32004D3474 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A29117051B32004D3474 /* MediaPlayer.framework */; };
+		6883A29417051B3B004D3474 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A29317051B3B004D3474 /* CoreText.framework */; };
+		6883A29617051B47004D3474 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A29517051B47004D3474 /* QuartzCore.framework */; };
+		6883A29817051B56004D3474 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6883A29717051B56004D3474 /* libz.dylib */; };
+		6883A2A7170914C9004D3474 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6883A2A5170914C9004D3474 /* background.png */; };
+		6883A2A8170914C9004D3474 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6883A2A6170914C9004D3474 /* background@2x.png */; };
+		6883A2AB170916F9004D3474 /* ToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6883A2AA170916F9004D3474 /* ToolBox.m */; };
+		6883A2AD17092CCB004D3474 /* gotomap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6883A2AC17092CCB004D3474 /* gotomap.png */; };
+		68B05C84170143ED00A666DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B05C83170143ED00A666DC /* UIKit.framework */; };
+		68B05C86170143ED00A666DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B05C85170143ED00A666DC /* Foundation.framework */; };
+		68B05C88170143ED00A666DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B05C87170143ED00A666DC /* CoreGraphics.framework */; };
+		68B05C8E170143ED00A666DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68B05C8C170143ED00A666DC /* InfoPlist.strings */; };
+		68B05C90170143ED00A666DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B05C8F170143ED00A666DC /* main.m */; };
+		68B05C94170143ED00A666DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B05C93170143ED00A666DC /* AppDelegate.m */; };
+		68B05C9D170143ED00A666DC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B05C9C170143ED00A666DC /* RootViewController.m */; };
+		68B05CA0170143ED00A666DC /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B05C9F170143ED00A666DC /* DataViewController.m */; };
+		68B05CA3170143ED00A666DC /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B05CA2170143ED00A666DC /* ModelController.m */; };
+		68B05CA6170143ED00A666DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B05CA4170143ED00A666DC /* MainStoryboard.storyboard */; };
+		68B05CC817017CB300A666DC /* pageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68B05CC717017CB300A666DC /* pageList.plist */; };
+		68B05CD01702885900A666DC /* ContentListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B05CCE1702885900A666DC /* ContentListTableViewController.m */; };
+		68B05CD91702C7E200A666DC /* BookContentListButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B05CD71702C7E200A666DC /* BookContentListButton.png */; };
+		68B05CDA1702C7E200A666DC /* BookContentListButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B05CD81702C7E200A666DC /* BookContentListButton@2x.png */; };
+		68B0E951171245C20071E424 /* yiwu_lvl1_R.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68B0E94D171245C20071E424 /* yiwu_lvl1_R.tpk */; };
+		68B0E952171245C20071E424 /* yiwu_lvl1_V.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68B0E94E171245C20071E424 /* yiwu_lvl1_V.tpk */; };
+		68B0E953171245C20071E424 /* yiwu_lvl2_R.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68B0E94F171245C20071E424 /* yiwu_lvl2_R.tpk */; };
+		68B0E954171245C20071E424 /* yiwu_lvl2_V.tpk in Resources */ = {isa = PBXBuildFile; fileRef = 68B0E950171245C20071E424 /* yiwu_lvl2_V.tpk */; };
+		68B0E958171512330071E424 /* dismissMapButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B0E956171512330071E424 /* dismissMapButton.png */; };
+		68B0E959171512330071E424 /* dismissMapButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B0E957171512330071E424 /* dismissMapButton@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68109E621709567300474E64 /* toolbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toolbarBackground.png; path = zjgis_mapBook/Resources/UI/toolbarBackground.png; sourceTree = "<group>"; };
+		68109E631709567300474E64 /* toolbarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbarBackground@2x.png"; path = "zjgis_mapBook/Resources/UI/toolbarBackground@2x.png"; sourceTree = "<group>"; };
+		68109E6617095DBB00474E64 /* gotomap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gotomap@2x.png"; path = "zjgis_mapBook/Resources/UI/gotomap@2x.png"; sourceTree = "<group>"; };
+		68109E681709698D00474E64 /* upArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upArrow.png; path = zjgis_mapBook/Resources/UI/upArrow.png; sourceTree = "<group>"; };
+		68109E6A17096E2200474E64 /* graphicSymbol01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graphicSymbol01.png; path = zjgis_mapBook/Resources/graphicSymbol01.png; sourceTree = "<group>"; };
+		68109E6C17097ABE00474E64 /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow.png; path = zjgis_mapBook/Resources/UI/downArrow.png; sourceTree = "<group>"; };
+		68109E70170A7AE600474E64 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		68109E73170A7E1700474E64 /* DismissModalViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissModalViewProtocol.h; sourceTree = "<group>"; };
+		68109E75170AA6FF00474E64 /* page_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_001.png; path = zjgis_mapBook/Resources/page_001.png; sourceTree = "<group>"; };
+		68109E76170AA6FF00474E64 /* page_001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_001@2x.png"; path = "zjgis_mapBook/Resources/page_001@2x.png"; sourceTree = "<group>"; };
+		68109E77170AA6FF00474E64 /* page_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_002.png; path = zjgis_mapBook/Resources/page_002.png; sourceTree = "<group>"; };
+		68109E78170AA6FF00474E64 /* page_002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_002@2x.png"; path = "zjgis_mapBook/Resources/page_002@2x.png"; sourceTree = "<group>"; };
+		68109E79170AA6FF00474E64 /* page_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_003.png; path = zjgis_mapBook/Resources/page_003.png; sourceTree = "<group>"; };
+		68109E7A170AA6FF00474E64 /* page_003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_003@2x.png"; path = "zjgis_mapBook/Resources/page_003@2x.png"; sourceTree = "<group>"; };
+		68109E7B170AA6FF00474E64 /* page_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_004.png; path = zjgis_mapBook/Resources/page_004.png; sourceTree = "<group>"; };
+		68109E7C170AA6FF00474E64 /* page_004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_004@2x.png"; path = "zjgis_mapBook/Resources/page_004@2x.png"; sourceTree = "<group>"; };
+		68109E7D170AA6FF00474E64 /* page_005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_005.png; path = zjgis_mapBook/Resources/page_005.png; sourceTree = "<group>"; };
+		68109E7E170AA6FF00474E64 /* page_005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_005@2x.png"; path = "zjgis_mapBook/Resources/page_005@2x.png"; sourceTree = "<group>"; };
+		68109E7F170AA6FF00474E64 /* page_006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_006.png; path = zjgis_mapBook/Resources/page_006.png; sourceTree = "<group>"; };
+		68109E80170AA6FF00474E64 /* page_006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_006@2x.png"; path = "zjgis_mapBook/Resources/page_006@2x.png"; sourceTree = "<group>"; };
+		68109E93170AC74200474E64 /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
+		68109E97170AC75F00474E64 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		68109E99170ACAF700474E64 /* jinhua_lvl1_R.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = jinhua_lvl1_R.tpk; path = data/jinhua_lvl1_R.tpk; sourceTree = "<group>"; };
+		68109E9A170ACAF700474E64 /* jinhua_lvl1_V.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = jinhua_lvl1_V.tpk; path = data/jinhua_lvl1_V.tpk; sourceTree = "<group>"; };
+		68109E9B170ACAF700474E64 /* jinhua_lvl2_R.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = jinhua_lvl2_R.tpk; path = data/jinhua_lvl2_R.tpk; sourceTree = "<group>"; };
+		68109E9C170ACAF700474E64 /* jinhua_lvl2_V.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = jinhua_lvl2_V.tpk; path = data/jinhua_lvl2_V.tpk; sourceTree = "<group>"; };
+		68109E9D170ACAF700474E64 /* province_lvl1.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = province_lvl1.tpk; path = data/province_lvl1.tpk; sourceTree = "<group>"; };
+		68109E9E170ACAF700474E64 /* province_lvl2.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = province_lvl2.tpk; path = data/province_lvl2.tpk; sourceTree = "<group>"; };
+		682078D6170C1396001A73DE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		682078D8170C13A8001A73DE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		682078E2170C1CB3001A73DE /* page_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page_cover.png; path = zjgis_mapBook/Resources/page_cover.png; sourceTree = "<group>"; };
+		682078E3170C1CB3001A73DE /* page_cover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "page_cover@2x.png"; path = "zjgis_mapBook/Resources/page_cover@2x.png"; sourceTree = "<group>"; };
+		682078EE170C22D7001A73DE /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		682078EF170C22D7001A73DE /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		684B9738170BB0A800119F47 /* page01_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page01_01.png; path = zjgis_mapBook/Resources/PageElements/page01_01.png; sourceTree = "<group>"; };
+		684B9739170BB0A800119F47 /* page01_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page01_02.png; path = zjgis_mapBook/Resources/PageElements/page01_02.png; sourceTree = "<group>"; };
+		684B973A170BB0A800119F47 /* page02_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page02_01.png; path = zjgis_mapBook/Resources/PageElements/page02_01.png; sourceTree = "<group>"; };
+		684B973B170BB0A800119F47 /* page03_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page03_01.png; path = zjgis_mapBook/Resources/PageElements/page03_01.png; sourceTree = "<group>"; };
+		684B973C170BB0A800119F47 /* page03_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page03_02.png; path = zjgis_mapBook/Resources/PageElements/page03_02.png; sourceTree = "<group>"; };
+		684B973D170BB0A800119F47 /* page04_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page04_01.png; path = zjgis_mapBook/Resources/PageElements/page04_01.png; sourceTree = "<group>"; };
+		684B973E170BB0A800119F47 /* page04_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page04_02.png; path = zjgis_mapBook/Resources/PageElements/page04_02.png; sourceTree = "<group>"; };
+		684B973F170BB0A800119F47 /* page04_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page04_03.png; path = zjgis_mapBook/Resources/PageElements/page04_03.png; sourceTree = "<group>"; };
+		684B9740170BB0A800119F47 /* page06_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page06_01.png; path = zjgis_mapBook/Resources/PageElements/page06_01.png; sourceTree = "<group>"; };
+		684B9741170BB0A800119F47 /* page06_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page06_02.png; path = zjgis_mapBook/Resources/PageElements/page06_02.png; sourceTree = "<group>"; };
+		6883A28717051AAF004D3474 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6883A28917051AD0004D3474 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		6883A28D17051B10004D3474 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6883A28F17051B1D004D3474 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6883A29117051B32004D3474 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6883A29317051B3B004D3474 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6883A29517051B47004D3474 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6883A29717051B56004D3474 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6883A29917090C2C004D3474 /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		6883A2A5170914C9004D3474 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = zjgis_mapBook/Resources/UI/background.png; sourceTree = "<group>"; };
+		6883A2A6170914C9004D3474 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "zjgis_mapBook/Resources/UI/background@2x.png"; sourceTree = "<group>"; };
+		6883A2A9170916F9004D3474 /* ToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBox.h; sourceTree = "<group>"; };
+		6883A2AA170916F9004D3474 /* ToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBox.m; sourceTree = "<group>"; };
+		6883A2AC17092CCB004D3474 /* gotomap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gotomap.png; path = zjgis_mapBook/Resources/UI/gotomap.png; sourceTree = "<group>"; };
+		68B05C80170143ED00A666DC /* 电子地图册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "电子地图册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B05C83170143ED00A666DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68B05C85170143ED00A666DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68B05C87170143ED00A666DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68B05C8B170143ED00A666DC /* zjgis_mapBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zjgis_mapBook-Info.plist"; sourceTree = "<group>"; };
+		68B05C8D170143ED00A666DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68B05C8F170143ED00A666DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68B05C91170143ED00A666DC /* zjgis_mapBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zjgis_mapBook-Prefix.pch"; sourceTree = "<group>"; };
+		68B05C92170143ED00A666DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68B05C93170143ED00A666DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68B05C9B170143ED00A666DC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		68B05C9C170143ED00A666DC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		68B05C9E170143ED00A666DC /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		68B05C9F170143ED00A666DC /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		68B05CA1170143ED00A666DC /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		68B05CA2170143ED00A666DC /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		68B05CA5170143ED00A666DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68B05CC717017CB300A666DC /* pageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = pageList.plist; path = Resources/pageList.plist; sourceTree = "<group>"; };
+		68B05CCD1702885900A666DC /* ContentListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentListTableViewController.h; path = ContentTable/ContentListTableViewController.h; sourceTree = "<group>"; };
+		68B05CCE1702885900A666DC /* ContentListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentListTableViewController.m; path = ContentTable/ContentListTableViewController.m; sourceTree = "<group>"; };
+		68B05CD71702C7E200A666DC /* BookContentListButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BookContentListButton.png; path = zjgis_mapBook/Resources/UI/BookContentListButton.png; sourceTree = "<group>"; };
+		68B05CD81702C7E200A666DC /* BookContentListButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BookContentListButton@2x.png"; path = "zjgis_mapBook/Resources/UI/BookContentListButton@2x.png"; sourceTree = "<group>"; };
+		68B0E94D171245C20071E424 /* yiwu_lvl1_R.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = yiwu_lvl1_R.tpk; path = data/yiwu_lvl1_R.tpk; sourceTree = "<group>"; };
+		68B0E94E171245C20071E424 /* yiwu_lvl1_V.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = yiwu_lvl1_V.tpk; path = data/yiwu_lvl1_V.tpk; sourceTree = "<group>"; };
+		68B0E94F171245C20071E424 /* yiwu_lvl2_R.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = yiwu_lvl2_R.tpk; path = data/yiwu_lvl2_R.tpk; sourceTree = "<group>"; };
+		68B0E950171245C20071E424 /* yiwu_lvl2_V.tpk */ = {isa = PBXFileReference; lastKnownFileType = file; name = yiwu_lvl2_V.tpk; path = data/yiwu_lvl2_V.tpk; sourceTree = "<group>"; };
+		68B0E9551714EDE60071E424 /* macroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macroDefinition.h; sourceTree = "<group>"; };
+		68B0E956171512330071E424 /* dismissMapButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dismissMapButton.png; path = zjgis_mapBook/Resources/UI/dismissMapButton.png; sourceTree = "<group>"; };
+		68B0E957171512330071E424 /* dismissMapButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dismissMapButton@2x.png"; path = "zjgis_mapBook/Resources/UI/dismissMapButton@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B05C7D170143ED00A666DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6883A29817051B56004D3474 /* libz.dylib in Frameworks */,
+				6883A29617051B47004D3474 /* QuartzCore.framework in Frameworks */,
+				6883A29417051B3B004D3474 /* CoreText.framework in Frameworks */,
+				6883A29217051B32004D3474 /* MediaPlayer.framework in Frameworks */,
+				6883A29017051B1D004D3474 /* MobileCoreServices.framework in Frameworks */,
+				6883A28E17051B10004D3474 /* Security.framework in Frameworks */,
+				6883A28C17051B03004D3474 /* libstdc++.dylib in Frameworks */,
+				6883A28B17051AF7004D3474 /* CoreLocation.framework in Frameworks */,
+				68B05C88170143ED00A666DC /* CoreGraphics.framework in Frameworks */,
+				68B05C84170143ED00A666DC /* UIKit.framework in Frameworks */,
+				68B05C86170143ED00A666DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68109E6F170A5F4E00474E64 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				68B05C92170143ED00A666DC /* AppDelegate.h */,
+				68B05C93170143ED00A666DC /* AppDelegate.m */,
+			);
+			name = APP;
+			sourceTree = "<group>";
+		};
+		68109E74170AA6F600474E64 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				682078E2170C1CB3001A73DE /* page_cover.png */,
+				682078E3170C1CB3001A73DE /* page_cover@2x.png */,
+				68109E75170AA6FF00474E64 /* page_001.png */,
+				68109E76170AA6FF00474E64 /* page_001@2x.png */,
+				68109E77170AA6FF00474E64 /* page_002.png */,
+				68109E78170AA6FF00474E64 /* page_002@2x.png */,
+				68109E79170AA6FF00474E64 /* page_003.png */,
+				68109E7A170AA6FF00474E64 /* page_003@2x.png */,
+				68109E7B170AA6FF00474E64 /* page_004.png */,
+				68109E7C170AA6FF00474E64 /* page_004@2x.png */,
+				68109E7D170AA6FF00474E64 /* page_005.png */,
+				68109E7E170AA6FF00474E64 /* page_005@2x.png */,
+				68109E7F170AA6FF00474E64 /* page_006.png */,
+				68109E80170AA6FF00474E64 /* page_006@2x.png */,
+			);
+			name = pages;
+			sourceTree = "<group>";
+		};
+		684B9736170BACB300119F47 /* symbols */ = {
+			isa = PBXGroup;
+			children = (
+				68109E6A17096E2200474E64 /* graphicSymbol01.png */,
+			);
+			name = symbols;
+			sourceTree = "<group>";
+		};
+		684B9737170BB09A00119F47 /* pageElements */ = {
+			isa = PBXGroup;
+			children = (
+				684B9738170BB0A800119F47 /* page01_01.png */,
+				684B9739170BB0A800119F47 /* page01_02.png */,
+				684B973A170BB0A800119F47 /* page02_01.png */,
+				684B973B170BB0A800119F47 /* page03_01.png */,
+				684B973C170BB0A800119F47 /* page03_02.png */,
+				684B973D170BB0A800119F47 /* page04_01.png */,
+				684B973E170BB0A800119F47 /* page04_02.png */,
+				684B973F170BB0A800119F47 /* page04_03.png */,
+				684B9740170BB0A800119F47 /* page06_01.png */,
+				684B9741170BB0A800119F47 /* page06_02.png */,
+			);
+			name = pageElements;
+			sourceTree = "<group>";
+		};
+		6883A29C17090F28004D3474 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				68109E99170ACAF700474E64 /* jinhua_lvl1_R.tpk */,
+				68109E9A170ACAF700474E64 /* jinhua_lvl1_V.tpk */,
+				68109E9B170ACAF700474E64 /* jinhua_lvl2_R.tpk */,
+				68109E9C170ACAF700474E64 /* jinhua_lvl2_V.tpk */,
+				68109E9D170ACAF700474E64 /* province_lvl1.tpk */,
+				68109E9E170ACAF700474E64 /* province_lvl2.tpk */,
+				68B0E94D171245C20071E424 /* yiwu_lvl1_R.tpk */,
+				68B0E94E171245C20071E424 /* yiwu_lvl1_V.tpk */,
+				68B0E94F171245C20071E424 /* yiwu_lvl2_R.tpk */,
+				68B0E950171245C20071E424 /* yiwu_lvl2_V.tpk */,
+			);
+			name = data;
+			path = zjgis_mapBook;
+			sourceTree = "<group>";
+		};
+		68B05C77170143ED00A666DC = {
+			isa = PBXGroup;
+			children = (
+				68B05C89170143ED00A666DC /* zjgis_mapBook */,
+				68B05CAC1701472800A666DC /* Resources */,
+				68B05C82170143ED00A666DC /* Frameworks */,
+				68B05C81170143ED00A666DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B05C81170143ED00A666DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B05C80170143ED00A666DC /* 电子地图册.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B05C82170143ED00A666DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6883A29717051B56004D3474 /* libz.dylib */,
+				6883A29517051B47004D3474 /* QuartzCore.framework */,
+				6883A29317051B3B004D3474 /* CoreText.framework */,
+				6883A29117051B32004D3474 /* MediaPlayer.framework */,
+				6883A28F17051B1D004D3474 /* MobileCoreServices.framework */,
+				6883A28D17051B10004D3474 /* Security.framework */,
+				6883A28917051AD0004D3474 /* libstdc++.dylib */,
+				6883A28717051AAF004D3474 /* CoreLocation.framework */,
+				68B05C83170143ED00A666DC /* UIKit.framework */,
+				68B05C85170143ED00A666DC /* Foundation.framework */,
+				68B05C87170143ED00A666DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B05C89170143ED00A666DC /* zjgis_mapBook */ = {
+			isa = PBXGroup;
+			children = (
+				68B0E9551714EDE60071E424 /* macroDefinition.h */,
+				68109E73170A7E1700474E64 /* DismissModalViewProtocol.h */,
+				68B05C9B170143ED00A666DC /* RootViewController.h */,
+				68B05C9C170143ED00A666DC /* RootViewController.m */,
+				68B05C9E170143ED00A666DC /* DataViewController.h */,
+				68B05C9F170143ED00A666DC /* DataViewController.m */,
+				68B05CA1170143ED00A666DC /* ModelController.h */,
+				68B05CA2170143ED00A666DC /* ModelController.m */,
+				68B05CA4170143ED00A666DC /* MainStoryboard.storyboard */,
+				6883A29917090C2C004D3474 /* mapViewController.h */,
+				68109E93170AC74200474E64 /* mapViewController.m */,
+				6883A2A9170916F9004D3474 /* ToolBox.h */,
+				6883A2AA170916F9004D3474 /* ToolBox.m */,
+				68109E70170A7AE600474E64 /* DetailsViewController.h */,
+				68109E97170AC75F00474E64 /* DetailsViewController.m */,
+				68B05CCC1702882A00A666DC /* ContentTable */,
+				68109E6F170A5F4E00474E64 /* APP */,
+				68B05C8A170143ED00A666DC /* Supporting Files */,
+			);
+			path = zjgis_mapBook;
+			sourceTree = "<group>";
+		};
+		68B05C8A170143ED00A666DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68B05CC717017CB300A666DC /* pageList.plist */,
+				682078D6170C1396001A73DE /* icon.png */,
+				682078D8170C13A8001A73DE /* icon@2x.png */,
+				68B05C8B170143ED00A666DC /* zjgis_mapBook-Info.plist */,
+				68B05C8C170143ED00A666DC /* InfoPlist.strings */,
+				68B05C8F170143ED00A666DC /* main.m */,
+				68B05C91170143ED00A666DC /* zjgis_mapBook-Prefix.pch */,
+				682078EE170C22D7001A73DE /* Default-Portrait@2x~ipad.png */,
+				682078EF170C22D7001A73DE /* Default-Portrait~ipad.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68B05CAC1701472800A666DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				684B9737170BB09A00119F47 /* pageElements */,
+				684B9736170BACB300119F47 /* symbols */,
+				68109E74170AA6F600474E64 /* pages */,
+				6883A29C17090F28004D3474 /* data */,
+				68B05CD61702C79400A666DC /* UI */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		68B05CCC1702882A00A666DC /* ContentTable */ = {
+			isa = PBXGroup;
+			children = (
+				68B05CCD1702885900A666DC /* ContentListTableViewController.h */,
+				68B05CCE1702885900A666DC /* ContentListTableViewController.m */,
+			);
+			name = ContentTable;
+			sourceTree = "<group>";
+		};
+		68B05CD61702C79400A666DC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6883A2A5170914C9004D3474 /* background.png */,
+				6883A2A6170914C9004D3474 /* background@2x.png */,
+				6883A2AC17092CCB004D3474 /* gotomap.png */,
+				68109E6617095DBB00474E64 /* gotomap@2x.png */,
+				68B05CD71702C7E200A666DC /* BookContentListButton.png */,
+				68B05CD81702C7E200A666DC /* BookContentListButton@2x.png */,
+				68109E621709567300474E64 /* toolbarBackground.png */,
+				68109E631709567300474E64 /* toolbarBackground@2x.png */,
+				68109E681709698D00474E64 /* upArrow.png */,
+				68109E6C17097ABE00474E64 /* downArrow.png */,
+				68B0E956171512330071E424 /* dismissMapButton.png */,
+				68B0E957171512330071E424 /* dismissMapButton@2x.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B05C7F170143ED00A666DC /* zjgis_mapBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B05CA9170143ED00A666DC /* Build configuration list for PBXNativeTarget "zjgis_mapBook" */;
+			buildPhases = (
+				68B05C7C170143ED00A666DC /* Sources */,
+				68B05C7D170143ED00A666DC /* Frameworks */,
+				68B05C7E170143ED00A666DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zjgis_mapBook;
+			productName = zjgis_mapBook;
+			productReference = 68B05C80170143ED00A666DC /* 电子地图册.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B05C78170143ED00A666DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zjgis;
+			};
+			buildConfigurationList = 68B05C7B170143ED00A666DC /* Build configuration list for PBXProject "zjgis_mapBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68B05C77170143ED00A666DC;
+			productRefGroup = 68B05C81170143ED00A666DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B05C7F170143ED00A666DC /* zjgis_mapBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B05C7E170143ED00A666DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B05C8E170143ED00A666DC /* InfoPlist.strings in Resources */,
+				68B05CA6170143ED00A666DC /* MainStoryboard.storyboard in Resources */,
+				68B05CC817017CB300A666DC /* pageList.plist in Resources */,
+				68B05CD91702C7E200A666DC /* BookContentListButton.png in Resources */,
+				68B05CDA1702C7E200A666DC /* BookContentListButton@2x.png in Resources */,
+				68109E9F170ACB4000474E64 /* jinhua_lvl1_R.tpk in Resources */,
+				68109EA0170ACB4200474E64 /* jinhua_lvl1_V.tpk in Resources */,
+				68109EA2170ACB4600474E64 /* jinhua_lvl2_V.tpk in Resources */,
+				68109EA1170ACB4400474E64 /* jinhua_lvl2_R.tpk in Resources */,
+				68109EA3170ACB4800474E64 /* province_lvl1.tpk in Resources */,
+				68109EA4170ACB4A00474E64 /* province_lvl2.tpk in Resources */,
+				6883A2A7170914C9004D3474 /* background.png in Resources */,
+				6883A2A8170914C9004D3474 /* background@2x.png in Resources */,
+				6883A2AD17092CCB004D3474 /* gotomap.png in Resources */,
+				68109E641709567300474E64 /* toolbarBackground.png in Resources */,
+				68109E651709567300474E64 /* toolbarBackground@2x.png in Resources */,
+				68109E6717095DBB00474E64 /* gotomap@2x.png in Resources */,
+				68109E691709698D00474E64 /* upArrow.png in Resources */,
+				68109E6B17096E2200474E64 /* graphicSymbol01.png in Resources */,
+				68109E6D17097ABE00474E64 /* downArrow.png in Resources */,
+				68109E81170AA6FF00474E64 /* page_001.png in Resources */,
+				68109E82170AA6FF00474E64 /* page_001@2x.png in Resources */,
+				68109E83170AA6FF00474E64 /* page_002.png in Resources */,
+				68109E84170AA6FF00474E64 /* page_002@2x.png in Resources */,
+				68109E85170AA6FF00474E64 /* page_003.png in Resources */,
+				68109E86170AA6FF00474E64 /* page_003@2x.png in Resources */,
+				68109E87170AA6FF00474E64 /* page_004.png in Resources */,
+				68109E88170AA6FF00474E64 /* page_004@2x.png in Resources */,
+				68109E89170AA6FF00474E64 /* page_005.png in Resources */,
+				68109E8A170AA6FF00474E64 /* page_005@2x.png in Resources */,
+				68109E8B170AA6FF00474E64 /* page_006.png in Resources */,
+				68109E8C170AA6FF00474E64 /* page_006@2x.png in Resources */,
+				684B9742170BB0A800119F47 /* page01_01.png in Resources */,
+				684B9743170BB0A800119F47 /* page01_02.png in Resources */,
+				684B9744170BB0A800119F47 /* page02_01.png in Resources */,
+				684B9745170BB0A800119F47 /* page03_01.png in Resources */,
+				684B9746170BB0A800119F47 /* page03_02.png in Resources */,
+				684B9747170BB0A800119F47 /* page04_01.png in Resources */,
+				684B9748170BB0A800119F47 /* page04_02.png in Resources */,
+				684B9749170BB0A800119F47 /* page04_03.png in Resources */,
+				684B974A170BB0A800119F47 /* page06_01.png in Resources */,
+				684B974B170BB0A800119F47 /* page06_02.png in Resources */,
+				682078D7170C1396001A73DE /* icon.png in Resources */,
+				682078D9170C13A8001A73DE /* icon@2x.png in Resources */,
+				682078E4170C1CB3001A73DE /* page_cover.png in Resources */,
+				682078E5170C1CB3001A73DE /* page_cover@2x.png in Resources */,
+				682078F0170C22D7001A73DE /* Default-Portrait@2x~ipad.png in Resources */,
+				682078F1170C22D7001A73DE /* Default-Portrait~ipad.png in Resources */,
+				68B0E951171245C20071E424 /* yiwu_lvl1_R.tpk in Resources */,
+				68B0E952171245C20071E424 /* yiwu_lvl1_V.tpk in Resources */,
+				68B0E953171245C20071E424 /* yiwu_lvl2_R.tpk in Resources */,
+				68B0E954171245C20071E424 /* yiwu_lvl2_V.tpk in Resources */,
+				68B0E958171512330071E424 /* dismissMapButton.png in Resources */,
+				68B0E959171512330071E424 /* dismissMapButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B05C7C170143ED00A666DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B05C90170143ED00A666DC /* main.m in Sources */,
+				68B05C94170143ED00A666DC /* AppDelegate.m in Sources */,
+				68B05C9D170143ED00A666DC /* RootViewController.m in Sources */,
+				68B05CA0170143ED00A666DC /* DataViewController.m in Sources */,
+				68B05CA3170143ED00A666DC /* ModelController.m in Sources */,
+				68B05CD01702885900A666DC /* ContentListTableViewController.m in Sources */,
+				6883A2AB170916F9004D3474 /* ToolBox.m in Sources */,
+				68109E94170AC74200474E64 /* mapViewController.m in Sources */,
+				68109E98170AC75F00474E64 /* DetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68B05C8C170143ED00A666DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B05C8D170143ED00A666DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68B05CA4170143ED00A666DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B05CA5170143ED00A666DC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B05CA7170143ED00A666DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		68B05CA8170143ED00A666DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B05CAA170143ED00A666DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zjgis_mapBook/zjgis_mapBook-Prefix.pch";
+				INFOPLIST_FILE = "zjgis_mapBook/zjgis_mapBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = "电子地图册";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68B05CAB170143ED00A666DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zjgis_mapBook/zjgis_mapBook-Prefix.pch";
+				INFOPLIST_FILE = "zjgis_mapBook/zjgis_mapBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = "电子地图册";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B05C7B170143ED00A666DC /* Build configuration list for PBXProject "zjgis_mapBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B05CA7170143ED00A666DC /* Debug */,
+				68B05CA8170143ED00A666DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B05CA9170143ED00A666DC /* Build configuration list for PBXNativeTarget "zjgis_mapBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B05CAA170143ED00A666DC /* Debug */,
+				68B05CAB170143ED00A666DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B05C78170143ED00A666DC /* Project object */;
+}
